@@ -3,3 +3,13 @@ C:\Users\Олег\Documents\D_Z_sem_3_C#\Task21\obj\Debug\net6.0\Task21.Generate
 C:\Users\Олег\Documents\D_Z_sem_3_C#\Task21\obj\Debug\net6.0\Task21.AssemblyInfoInputs.cache
 C:\Users\Олег\Documents\D_Z_sem_3_C#\Task21\obj\Debug\net6.0\Task21.AssemblyInfo.cs
 C:\Users\Олег\Documents\D_Z_sem_3_C#\Task21\obj\Debug\net6.0\Task21.csproj.CoreCompileInputs.cache
+C:\Users\Олег\Documents\D_Z_sem_3_C#\Task21\bin\Debug\net6.0\Task21.exe
+C:\Users\Олег\Documents\D_Z_sem_3_C#\Task21\bin\Debug\net6.0\Task21.deps.json
+C:\Users\Олег\Documents\D_Z_sem_3_C#\Task21\bin\Debug\net6.0\Task21.runtimeconfig.json
+C:\Users\Олег\Documents\D_Z_sem_3_C#\Task21\bin\Debug\net6.0\Task21.dll
+C:\Users\Олег\Documents\D_Z_sem_3_C#\Task21\bin\Debug\net6.0\Task21.pdb
+C:\Users\Олег\Documents\D_Z_sem_3_C#\Task21\obj\Debug\net6.0\Task21.dll
+C:\Users\Олег\Documents\D_Z_sem_3_C#\Task21\obj\Debug\net6.0\refint\Task21.dll
+C:\Users\Олег\Documents\D_Z_sem_3_C#\Task21\obj\Debug\net6.0\Task21.pdb
+C:\Users\Олег\Documents\D_Z_sem_3_C#\Task21\obj\Debug\net6.0\Task21.genruntimeconfig.cache
+C:\Users\Олег\Documents\D_Z_sem_3_C#\Task21\obj\Debug\net6.0\ref\Task21.dll
