@@ -9,25 +9,32 @@ int Promt(string message)
     Console.Write(message);
     int value = int.Parse(Console.ReadLine()!);
     int numberN = Convert.ToInt32(value);
-    return Math.Abs(numberN);
+    return numberN;
 }
 
 int n = Promt("Введите пятизначное число: ");
 
-Palindrome(n);
+Palindrome(n);                                             //Вызов метода
 
-int Palindrome(int n)
+int Palindrome(int n)                                       //Сам метод
 {
-    int temp = n;
-    int revers = 0;
+    int temp = n;                                           // Ввод новой переменной temp
+    int revers = 0;                                         // Ввод новой переменной revers
 
-    while (n > 0)
+    while (n > 0)                                        //Переворачиваем число в обратном порядке
     {
         revers = (revers * 10) + (n % 10);
         n = (n / 10);
-        Console.Write("Число с цифрой в обратном порядке: " + revers);
+                                                          //Console.WriteLine("Число с цифрой в обратном порядке: " + revers);
     }
+    if (temp==revers)                                       //Сравнение
+        {
+            Console.WriteLine("Это палиндром!");
+        }
+    else
+        {
+        Console.WriteLine("Это не палиндром!");
+        }
     return n;
 }
-
 
