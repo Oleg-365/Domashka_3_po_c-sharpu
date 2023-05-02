@@ -3,9 +3,6 @@
 //3 -> 1, 8, 27
 //5 -> 1, 8, 27, 64, 125
 
-int n = Promt("Введите число N: ");
-NumberTable(n);
-
 int Promt(string message)
 {
     Console.Write(message);
@@ -13,6 +10,10 @@ int Promt(string message)
     int numN = Convert.ToInt32(value);
     return Math.Abs(numN);
 }
+
+int n = Promt("Введите число N: ");
+NumberTable(n);
+
 
 void NumberTable(int n)
 {
