@@ -12,8 +12,25 @@ int Promt(string message)
     return numberN;
 }
 
-int n = Promt("Введите пятизначное число: ");
 
+int n = Promt("Введите пятизначное число: ");
+if (ValidateNumber(n))
+{
+    Console.WriteLine("Вы ввели пятизначное значение.");
+}
+
+
+bool ValidateNumber(int n)
+{
+    if (n < 10000 || n > 100000)
+    {
+        Console.WriteLine("Вы ввели не пятизначное число!");
+        return false;
+    }
+    return true;
+}
+
+                                                            
 Palindrome(n);                                             //Вызов метода
 
 int Palindrome(int n)                                       //Сам метод
@@ -25,16 +42,16 @@ int Palindrome(int n)                                       //Сам метод
     {
         revers = (revers * 10) + (n % 10);
         n = (n / 10);
-                                                          //Console.WriteLine("Число с цифрой в обратном порядке: " + revers);
+                                                            //Console.WriteLine("Число с цифрой в обратном порядке: " + revers);
     }
-    if (temp==revers)                                       //Сравнение
-        {
-            Console.WriteLine("Это палиндром!");
-        }
+    if (temp == revers)                                       //Сравнение
+    {
+        Console.WriteLine("Это палиндром!");
+    }
     else
-        {
+    {
         Console.WriteLine("Это не палиндром!");
-        }
-    return n;
+    }
+    return temp;
 }
 
